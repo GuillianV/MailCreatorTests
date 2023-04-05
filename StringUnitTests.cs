@@ -15,7 +15,7 @@ namespace MailCreatorTests
             Assert.Equal("", ("").MatchMailtypeText());
             Assert.Equal(("1").MatchMailtypeText(),"1");
             Assert.Equal(("123456789").MatchMailtypeText(),"123456789" );
-            Assert.Equal(("aBcDeF1D35").MatchMailtypeText(),"aBcDeF1D35");
+            Assert.Equal(("aBcDeF1D352").MatchMailtypeText(),"aBcDeF1D35");
             Assert.Equal(("gvv.sqd@mmm.comm").MatchMailtypeText(),"gvv.sqd@mmm.comm");
             Assert.Equal(("gvv.sq_d@mmm.comm").MatchMailtypeText(),"gvv.sq_d@mmm.comm");
             Assert.Equal(("g-vv.sq_d@mmm.comm").MatchMailtypeText(),"g-vv.sq_d@mmm.comm" );
